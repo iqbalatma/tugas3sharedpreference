@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    tools:context=".latihan3.Home"
+    android:padding="@dimen/dimen25"
+    android:background="@color/colorBlueCalm">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="65dp"
+        android:layout_height="71dp"
+        android:contentDescription="@string/desc"
+        app:srcCompat="@drawable/ic_child_friendly" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_marginStart="@dimen/dimen72"
+        android:layout_marginLeft="@dimen/dimen72"
+        android:layout_height="wrap_content"
+        android:text="@string/home_ngasuh"
+        android:textColor="@color/colorWhite"
+        android:textAllCaps="true"
+        android:textSize="@dimen/font20"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen72"
+        android:layout_marginLeft="@dimen/dimen72"
+        android:paddingTop="@dimen/dimen40"
+        android:textColor="@color/colorWhite"
+        android:text="@string/home_siap" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/home_hallo"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"
+        android:textSize="@dimen/font20"
+        android:gravity="center"
+        android:layout_marginStart="@dimen/dimen50"
+        android:layout_marginEnd="@dimen/dimen50"
+        android:layout_marginLeft="@dimen/dimen50"
+        android:layout_marginRight="@dimen/dimen50"
+        android:layout_marginTop="@dimen/dimen100"
+
+
+        />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/home_nama"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"
+        android:textSize="@dimen/font18"
+        android:gravity="center"
+        android:layout_marginStart="@dimen/dimen50"
+        android:layout_marginEnd="@dimen/dimen50"
+        android:layout_marginLeft="@dimen/dimen50"
+        android:layout_marginRight="@dimen/dimen50"
+        android:layout_marginTop="@dimen/dimen138"/>
+
+    <View
+        android:layout_below="@id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen3"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/dimen120"
+        android:layout_marginLeft="@dimen/dimen120"
+        android:layout_marginTop="@dimen/dimen10"
+        android:layout_marginEnd="@dimen/dimen120"
+        android:layout_marginRight="@dimen/dimen120"
+        android:background="#ffffff" />
+
+    <TextView
+
+        android:id="@+id/txt_logout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen40"
+        android:layout_marginStart="@dimen/dimen50"
+        android:layout_marginLeft="@dimen/dimen50"
+        android:layout_marginTop="@dimen/dimen20"
+        android:layout_marginEnd="@dimen/dimen50"
+        android:layout_marginRight="@dimen/dimen50"
+        android:background="@drawable/btn"
+        android:clickable="true"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:text="@string/home_keluar"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"
+        android:focusable="true" />
+
+
+</RelativeLayout>

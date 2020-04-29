@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Latihan3</string>
+
+    <string name="home_ngasuh">ngasuh</string>
+    <string name="home_siap">Siap Menjadi Orangtua Muda</string>
+    <string name="home_hallo">Hallo</string>
+    <string name="home_nama">Nama User</string>
+    <string name="home_keluar">Logout</string>
+
+
+    <string name="login_ngasuh">ngasuh</string>
+    <string name="login_siap">Siap Menjadi Orangtua Muda</string>
+    <string name="login_login">Login</string>
+    <string name="login_username">Username</string>
+    <string name="login_password">Password</string>
+    <string name="login_lupaPassword">Lupa Password</string>
+    <string name="login_masuk">Masuk</string>
+    <string name="login_yukDaftar">Belum Punya Akun? Yuk Daftar</string>
+
+    <string name="registration_ngasuh">ngasuh</string>
+    <string name="registration_siap">Siap Menjadi Orangtua Muda</string>
+    <string name="registration_login">Daftar</string>
+    <string name="registration_username">Username</string>
+    <string name="registration_password">Password</string>
+    <string name="registration_confirmPassword">Confirm Password</string>
+    <string name="registration_telepon">Nomor Telepon</string>
+    <string name="registration_lupaPassword">Lupa Password</string>
+    <string name="registration_daftar">Daftar</string>
+
+
+    <string name="desc">Ini merupakan gambar kereta bayi</string>
+
+    <string name="_24">24</string>
+</resources>
