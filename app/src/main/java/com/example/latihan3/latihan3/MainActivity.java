@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
 //    Nama        : Iqbal Atma Muliawan
 //    Kelas       : IF4
 //    Matakuliah  : Aplikasi Komputasi Bergerak
+//    1 Mei 2020 Pengerjaan Shared preference  berdasarkan source code yang sudah ada
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
