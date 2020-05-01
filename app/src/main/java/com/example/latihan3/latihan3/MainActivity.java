@@ -6,8 +6,15 @@ import android.os.Bundle;
 
 import com.example.latihan3.R;
 
+import java.util.NavigableMap;
+
 public class MainActivity extends AppCompatActivity {
 
+//  Latihan 3
+//    NIM         : 10117124
+//    Nama        : Iqbal Atma Muliawan
+//    Kelas       : IF4
+//    Matakuliah  : Aplikasi Komputasi Bergerak
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
